@@ -2,8 +2,8 @@
 
 int main(){
     char x;
-    scanf("%c",&x)
-    printf("value enetered is %c"\n,x);
+    scanf("%c",&c)
+    printf("value enetered is %c"\n,c);
     return 0;
 
 }
