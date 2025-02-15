@@ -7,8 +7,10 @@ int main() {
     scanf("%c", &a);
     if(isupper(a)) {
         printf("Uppercase\n");
-    } else {
+    } else if (islower(a)) {
         printf("Lowercase\n");
+    } else {
+        printf("Not an alphanet");
     }
      return 0;
 
