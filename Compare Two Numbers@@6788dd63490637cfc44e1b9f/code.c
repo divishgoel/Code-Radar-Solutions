@@ -3,8 +3,6 @@
 int main() {
     int num1, num2;
 
-    // Input two numbers from the user
-    printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);
 
     // Compare the two numbers
