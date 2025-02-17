@@ -9,7 +9,7 @@ int main() {
     if(a == b && b == c) {
         printf("Equilateral\n");
     } else if(a == b && b != c) {
-        printf("Isoceles\n\n");
+        printf("Isosceles\n\n");
     } else {
         printf("Scanlene\n");
     }
