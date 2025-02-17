@@ -1,5 +1,4 @@
 // Your code here...
-// Your code here... 
 // Your code here...
 // Your code here...
 
@@ -8,10 +7,11 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a % 2 == 0) {
-        printf("Even\n");
+    if(a >= 60) {
+        printf("Eligible\n");
     } else {
-        printf("Odd\n");
+        printf("Not Eligible\n");
     }
     
 }
+
