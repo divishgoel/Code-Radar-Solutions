@@ -7,11 +7,11 @@ int main() {
     scanf("%d", &input);
     if(input >=90) {
         printf("A");    
-    } else if (90 < input >=80) {
+    } else if (90 > input >=80) {
         printf("B");
-    } else if (80 < input >= 70) {
+    } else if (80 > input >= 70) {
         printf("C");
-    } else if (70 < input >= 60) { 
+    } else if (70 > input >= 60) { 
         printf("D");
     } else {
         printf("F")
