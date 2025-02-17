@@ -8,7 +8,7 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     if(a % b == 0) {
-        printf("Yesl\n");
+        printf("Yes\n");
     }  else {
         printf("No\n");
     }
