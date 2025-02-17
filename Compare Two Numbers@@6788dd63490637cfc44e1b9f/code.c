@@ -1,11 +1,10 @@
-// Your code here...#include <stdio.h>
+// Your code here...
+#include <stdio.h>
 
 int main() {
     int num1, num2;
 
     scanf("%d %d", &num1, &num2);
-
-    // Compare the two numbers
     if (num1 == num2) {
         printf("Equal\n");
     } else if (num1 > num2) {
