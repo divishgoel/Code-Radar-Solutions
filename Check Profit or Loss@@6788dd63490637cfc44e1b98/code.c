@@ -6,9 +6,9 @@
 int main() {
     int a,b;
     scanf("%d %d", &a,&b);
-    if(a > b) {
+    if(b > a) {
         printf("Profit\n");
-    } else if(b > a) {
+    } else if(a > b) {
         printf("Loss\n");
     } else {
         printf("No Profit No Loss");
