@@ -8,7 +8,7 @@ int main() {
     scanf("%d %d %d",&a,&b,&c);
     if(a == b == c) {
         printf("Equilateral\n");
-    } else if(a == b != c) {
+    } else if(a == b && b != c) {
         printf("Isoceles\n\n");
     } else {
         printf("Scanlene\n");
