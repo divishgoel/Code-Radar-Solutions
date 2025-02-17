@@ -7,11 +7,11 @@ int main() {
 
     // Compare the two numbers
     if (num1 == num2) {
-        printf("The numbers are equal.\n");
+        printf("Equal\n");
     } else if (num1 > num2) {
-        printf("%d is larger than %d.\n", num1, num2);
+        printf("First\n")
     } else {
-        printf("%d is larger than %d.\n", num2, num1);
+        printf("Second");
     }
 
     return 0;
