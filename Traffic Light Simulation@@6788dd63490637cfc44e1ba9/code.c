@@ -13,7 +13,7 @@ void trafficLight(char signal) {
             printf("Slow Down\n");
             break;
         default:
-            printf("Invalid input! Please enter R, G, or Y.\n");
+            printf("Invalid input");
     }
 }
 
