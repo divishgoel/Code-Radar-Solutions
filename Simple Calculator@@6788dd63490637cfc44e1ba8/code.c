@@ -6,7 +6,7 @@ int main() {
     char op;
 
     // Taking input from the user
-    scanf("%lf %c %lf", &num1, &op, &num2);
+    scanf("%lf %lf %c", &num1, &num2, &op); 
 
     // Performing the operation
     if (op == '+') {
