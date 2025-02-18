@@ -10,14 +10,14 @@ int main() {
 
     // Performing the operation
     if (op == '+') {
-        printf("lf\n", num1 + num2);
+        printf("%lf\n", num1 + num2);
     } else if (op == '-') {
-        printf("2lf\n", num1 - num2);
+        printf("%lf\n", num1 - num2);
     } else if (op == '*') {
-        printf("lf\n", num1 * num2);
+        printf("%lf\n", num1 * num2);
     } else if (op == '/') {
         if (num2 != 0)
-            printf("lf\n", num1 / num2);
+            printf("%lf\n", num1 / num2);
         else
             printf("Error! Division by zero is not allowed.\n");
     } else {
